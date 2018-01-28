@@ -25,7 +25,6 @@ hs_err_pid*
 .idea
 HttpServer.iml
 target
-Dockerfile
 src/main/resources/
 src/test/
 target/generated-sources/
