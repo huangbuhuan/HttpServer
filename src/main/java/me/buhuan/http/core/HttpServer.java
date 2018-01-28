@@ -32,8 +32,8 @@ public class HttpServer {
 			ChannelFuture future = bootstrap.bind(port).sync();
 			future.channel().closeFuture().sync();
 		} finally {
-			parentGroup.shutdownGracefully();
-			childGroup.shutdownGracefully();
+			parentGroup.shutdownGracefully().sync();
+			childGroup.shutdownGracefully().sync();
 		}
 	}
 }
