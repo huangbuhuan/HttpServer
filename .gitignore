@@ -24,3 +24,10 @@ hs_err_pid*
 # idea
 .idea
 HttpServer.iml
+target
+Dockerfile
+src/main/resources/
+src/test/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/

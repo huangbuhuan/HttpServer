@@ -7,6 +7,8 @@
     <groupId>me.buhuan</groupId>
     <artifactId>http-server</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>http</name>
 
     <properties>
         <netty.version>4.1.16.Final</netty.version>
